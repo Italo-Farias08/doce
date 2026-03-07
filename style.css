@@ -91,7 +91,7 @@ button:hover {
 
 /* IMAGENS */
 img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
     display: block;
 }
@@ -107,11 +107,9 @@ img {
 }
 div{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    flex: auto;
+  flex-direction: column;
 }
 /* ANIMAÇÃO DE QUEDA */
 @keyframes fall {
