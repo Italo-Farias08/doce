@@ -102,6 +102,7 @@ img {
     max-width: 90%;
     height: auto;
     display: block;
+    border-radius: 25px;
 }
 
 /* CORAÇÕES CAINDO */
