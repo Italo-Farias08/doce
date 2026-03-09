@@ -46,8 +46,9 @@ h2{
      font-family: 'Dancing Script', cursive;
     color: #e75480;
     margin: 10px 0;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
+    margin-top: 30px;
 }
 main{
      display: flex;
@@ -55,6 +56,9 @@ main{
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+}
+p#blic{
+   color: #ffffff86;
 }
 
 /* PARÁGRAFOS */
@@ -65,7 +69,7 @@ p {
     text-align: center;
     max-width: 600px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* CONTADOR */
