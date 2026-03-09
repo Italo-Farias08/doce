@@ -27,8 +27,14 @@ picture{
     align-items: center;
     justify-content: center;
 }
+a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
 
-/* TÍTULOS */
 h1 {
     font-family: 'Dancing Script', cursive;
     color: #e75480;
@@ -61,8 +67,17 @@ p#blic{
    color: #ffffff86;
    
 }
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
 
-/* PARÁGRAFOS */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 p {
     font-size: 20px;
     line-height: 1.8;
@@ -72,43 +87,17 @@ p {
     text-align: center;
     margin-top: 10px;
 }
-
-/* CONTADOR */
-#contador {
-    display: flex;
-    gap: 15px;
-    margin: 20px 0;
-    font-size: 22px;
-    font-weight: bold;
-    color: #f08080;
+#text{
+   
+    font-size: 20px;
+    line-height: 1.8;
+    color: #ffffffaf;
+    text-align: center;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-#contador span {
-    background: rgba(255, 182, 193, 0.2);
-    padding: 10px 15px;
-    border-radius: 10px;
-}
-
-/* BOTÕES */
-button {
-    background: linear-gradient(135deg, #ffb6c1, #f08080);
-    border: none;
-    padding: 12px 25px;
-    border-radius: 12px;
-    color: white;
-    cursor: pointer;
-    font-family: 'Dancing Script', cursive;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-footer{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/* IMAGENS */
 img {
     max-width: 90%;
     height: auto;
@@ -127,37 +116,9 @@ video{
     margin-top: 30px;
     box-shadow: 0px 0px 15px #000000; 
 }
-
-/* CORAÇÕES CAINDO */
-.heart {
-    position: fixed; /* NÃO afeta o layout do body */
-    top: -50px;
-    pointer-events: none;
-    color: #ff69b4;
-    font-size: 24px;
-    animation: fall linear forwards;
-}
 div{
     display: flex;
     align-items: center;
     justify-content: center;
   flex-direction: column;
-}
-/* ANIMAÇÃO DE QUEDA */
-@keyframes fall {
-    0% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(100vh); opacity: 0; }
-}
-#mens{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  
-}
-a{
-    font-family: 'Dancing Script', cursive;
-    font-size: 2em;
-    text-decoration: none;
-    color: white;
 }
