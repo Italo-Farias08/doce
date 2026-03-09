@@ -77,3 +77,13 @@ function criarCoracao() {
 
 setInterval(criarCoracao, 500); // 1 coração a cada 0.5s
 
+
+function tocarMusica() {
+
+let musica = document.getElementById("musica");
+let mensagem = document.getElementById("mensagem");
+
+musica.play();
+mensagem.style.display = "block";
+
+}

@@ -92,13 +92,14 @@ button {
     cursor: pointer;
     font-family: 'Dancing Script', cursive;
     font-size: 18px;
-    margin-top: 20px;
-    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
 
-button:hover {
-    transform: scale(1.05);
-}
+
 
 /* IMAGENS */
 img {
